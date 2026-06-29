@@ -42,7 +42,7 @@ async def migrate_data():
     new_db = client[NEW_DB_NAME]
 
     old_chats = old_db["chats"]
-    old_users = old_db["tgusersdb"]
+    old_users = old_db["users"]
     new_chats = new_db["chats"]
     new_users = new_db["users"]
 
